@@ -17,6 +17,10 @@ python -m unittest discover -s tests -t .
 python simulate_loop.py
 ```
 
+`en/` holds the same code with English comments and messages (`cd en && python -m unittest discover -s tests -t .`).
+
+Book (English): *AI Agent Cost Control in Practice — Read, Stop, and Cut Your LLM API Bill with Python* — https://neuralalpha.gumroad.com/l/agent-cost-guide
+
 **Prices change.** `pricing.py` holds prices copied from official pricing pages on the date in `AS_OF` (2026-10-20). Check the official pages and update the table before relying on it. Model ID strings are illustrative; use the IDs from each provider's docs. The parts are tested with unit tests only; calls to real APIs are not included.
 
 ## 日本語
